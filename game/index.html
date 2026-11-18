@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Solmar Bay — an open-world crime game</title>
+<style>
+  html, body { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #101623; }
+  #game { display: block; width: 100vw; height: 100vh; }
+  #status { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="720" aria-label="Solmar Bay open-world crime game"></canvas>
+<p id="status">Solmar Bay: explore the city on foot or by car, complete Mara's five missions, and lose the police.</p>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
